@@ -4,10 +4,10 @@ This repository is mainly the solution of MIDAS Summer Internship Task-3
 Assignment Details-
 Use a given dataset to build a model to predict the category using description. Write code in python. Using Jupyter notebook is encouraged. 
 
-Show how you would clean and process the data
-Show how you would visualize this data
-Show how you would measure the accuracy of the model
-What ideas do you have to improve the accuracy of the model? What other algorithms would you try?
+  1) Show how you would clean and process the data
+  2) Show how you would visualize this data
+  3) Show how you would measure the accuracy of the model
+  4) What ideas do you have to improve the accuracy of the model? What other algorithms would you try?
 
 ## About Data : 
 You have to clean this data, In the product category tree separate all the categories, figure out the primary category, and then use the model to predict this.
