@@ -19,3 +19,6 @@ Questions are made this way to check if candidates are able to understand this.
 2) Description should be the main feature. Feel free to use other features if it'd improve the model.
 3) Include a Readme.pdf file with approach in detail and report the accuracy and what models were used.
 
+
+![Screenshot 2021-04-07 at 10 26 56 AM](https://user-images.githubusercontent.com/41789975/113812475-ca95df00-978b-11eb-8f0c-a96569bd61d9.png)
+
