@@ -68,10 +68,16 @@ pip install torch
     
 ### 6) Result
     So,after detailed analysis I have used BERT(Bidirectional Encoder Representations from Transformers) Model. It is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context. 
+#### F1-Score
     
- #### F-1 Score
+#### Training loss: 0.018742394280544406
+#### Validation loss: 0.15305931800355793
+#### F1 Score (Weighted): 0.9792079018736954
+
 ![Screenshot 2021-04-10 at 10 51 17 PM](https://user-images.githubusercontent.com/41789975/114278837-44a9ba80-9a4f-11eb-9d18-84c401c7c601.png)
- #### Accuracy 
+
+#### Accuracy
+
 ![Screenshot 2021-04-10 at 10 52 21 PM](https://user-images.githubusercontent.com/41789975/114278883-6acf5a80-9a4f-11eb-8f25-7200aa0cb365.png)
 
 ![Screenshot 2021-04-10 at 10 52 45 PM](https://user-images.githubusercontent.com/41789975/114278898-791d7680-9a4f-11eb-8a05-c5ebe7de6117.png)
