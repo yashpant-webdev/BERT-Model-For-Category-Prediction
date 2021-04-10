@@ -67,4 +67,11 @@ pip install torch
     Here we are removing all the product categories for which less than 10 products are present.
     
 ### 6) Result
-    ![Screenshot 2021-04-10 at 10 51 17 PM](https://user-images.githubusercontent.com/41789975/114278837-44a9ba80-9a4f-11eb-9d18-84c401c7c601.png)
+    So,after detailed analysis I have used BERT(Bidirectional Encoder Representations from Transformers) Model. It is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context. 
+    
+ #### F-1 Score
+![Screenshot 2021-04-10 at 10 51 17 PM](https://user-images.githubusercontent.com/41789975/114278837-44a9ba80-9a4f-11eb-9d18-84c401c7c601.png)
+ #### Accuracy 
+![Screenshot 2021-04-10 at 10 52 21 PM](https://user-images.githubusercontent.com/41789975/114278883-6acf5a80-9a4f-11eb-8f25-7200aa0cb365.png)
+
+![Screenshot 2021-04-10 at 10 52 45 PM](https://user-images.githubusercontent.com/41789975/114278898-791d7680-9a4f-11eb-8a05-c5ebe7de6117.png)
