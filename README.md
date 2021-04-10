@@ -19,6 +19,50 @@ Questions are made this way to check if candidates are able to understand this.
 2) Description should be the main feature. Feel free to use other features if it'd improve the model.
 3) Include a Readme.pdf file with approach in detail and report the accuracy and what models were used.
 
+# Product Classifier #
+This project is about multi class classification using NLP.
+Here we are provided with flipkart dataset from which we have to predict the primary category using product description.
 
-![Screenshot 2021-04-07 at 10 26 56 AM](https://user-images.githubusercontent.com/41789975/113812475-ca95df00-978b-11eb-8f0c-a96569bd61d9.png)
 
+## Installation
+In order to reproduce the results produced by the notebook the following needs to be installed.
+Use of virtual environment while installing these libraries is preferable.
+ 
+~~~
+pip install -q tensorflow-text
+pip install -q tf-models-official
+pip install wordcloud
+pip install gensim
+pip install nltk
+pip install spacy
+pip install transformers
+pip install wget
+pip install transformers
+pip install wget
+pip install pandas
+pip install numpy
+pip install seaborn
+pip install matplotlib
+pip install torch
+~~~
+
+# Approach
+STEP-1 Splitting the product categories in order to get the primary category
+
+~~~
+df['product_category'] = df['product_category_tree'].str.strip('["*]"').str.split('>>').str[0].str.strip()
+~~~
+
+STEP-2 Then we figure out the top ten product categories
+
+~~~
+df['product_category'].value_counts(normalize=True)[:10].plot(kind="bar")
+~~~
+
+STEP-3 Declaring a new column namely "Number_of_Words" in order to count the words present in the product description
+
+~~~
+data_df['Number_of_words'] = data_df['description'].apply(lambda x:len(str(x).split()))
+~~~
+
+STEP-4 
