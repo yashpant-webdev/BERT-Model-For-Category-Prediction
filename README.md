@@ -47,22 +47,24 @@ pip install torch
 ~~~
 
 # Approach
-STEP-1 Splitting the product categories in order to get the primary category
 
-~~~
-df['product_category'] = df['product_category_tree'].str.strip('["*]"').str.split('>>').str[0].str.strip()
-~~~
-
-STEP-2 Then we figure out the top ten product categories
-
-~~~
-df['product_category'].value_counts(normalize=True)[:10].plot(kind="bar")
-~~~
-
-STEP-3 Declaring a new column namely "Number_of_Words" in order to count the words present in the product description
-
-~~~
-data_df['Number_of_words'] = data_df['description'].apply(lambda x:len(str(x).split()))
-~~~
-
-STEP-4 
+### 1) Data For Analysis
+    From the product_category_tree we consider the primary catergory as the root of this tree. 
+    Example: For the category given tree '["Footwear >> Women's Footwear >> Ballerinas >> AW Bellies"]' the primary category is Footwear
+    
+### 2) Exploratory Data Analysis
+    Visulazation of Dataset is being done under this section
+    
+### 3) Data Cleaning
+    Data is being cleaned before going through Data Preparation
+    
+### 4) Data Preparation
+    Data preprocessing is done in the following fashion.
+    Tokenization of the description of the product. (Post cleaning the description for the product).
+    Lemmatizing the tokenized data in-order to prepare it for usagein the model.
+ 
+### 5) Model Preparation and Training
+    Here we are removing all the product categories for which less than 10 products are present.
+    
+### 6) Result
+    
