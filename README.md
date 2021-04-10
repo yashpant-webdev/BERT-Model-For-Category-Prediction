@@ -67,4 +67,4 @@ pip install torch
     Here we are removing all the product categories for which less than 10 products are present.
     
 ### 6) Result
-    
+    ![Screenshot 2021-04-10 at 10 51 17 PM](https://user-images.githubusercontent.com/41789975/114278837-44a9ba80-9a4f-11eb-9d18-84c401c7c601.png)
