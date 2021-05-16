@@ -1,6 +1,6 @@
-# MIDAS-TASK-3
+# Category Prediction Through Description using BERT MODEL
 This repository is mainly the solution of MIDAS Summer Internship Task-3
-## Task 3: NLP
+## NLP
 Assignment Details-
 Use a given dataset to build a model to predict the category using description. Write code in python. Using Jupyter notebook is encouraged. 
 
