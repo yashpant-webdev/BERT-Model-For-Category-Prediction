@@ -1,7 +1,7 @@
 # Category Prediction Through Description using BERT MODEL
 
 ## NLP
-Assignment Details-
+Details-
 Use a given dataset to build a model to predict the category using description. Write code in python. Using Jupyter notebook is encouraged. 
 
   1) Show how you would clean and process the data
