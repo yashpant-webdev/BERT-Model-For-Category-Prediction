@@ -11,8 +11,7 @@ Use a given dataset to build a model to predict the category using description. 
 
 ## About Data : 
 You have to clean this data, In the product category tree separate all the categories, figure out the primary category, and then use the model to predict this.
-If you want to remove some categories for lack of data, you are also free to do that, mention this with explanation and some visualization.
-Questions are made this way to check if candidates are able to understand this.
+If you want to remove some categories for lack of data, you are also free to do that.
 
 ## Note: 
 1) Goal is to predict the product category.
